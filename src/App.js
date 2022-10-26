@@ -4,7 +4,7 @@ import {PremierLeague} from "./components/Premier League/PremierLeague";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <PremierLeague/>
     </div>
   );
