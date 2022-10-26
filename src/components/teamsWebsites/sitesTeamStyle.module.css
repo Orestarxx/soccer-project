@@ -1,0 +1,14 @@
+.webSiteHolder{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.emblem{
+    width: 30px;
+    height: 30px;
+}
+
+.emblem:hover {
+    transform: translateY(-1px);
+}

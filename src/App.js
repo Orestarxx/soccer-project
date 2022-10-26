@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
-import {PremierLeague} from "./components/Premier League/PremierLeague";
+import {LayOut} from "./mainLayOut/LayOut";
+
 
 function App() {
   return (
     <div>
-      <PremierLeague/>
+      <LayOut/>
     </div>
   );
 }
