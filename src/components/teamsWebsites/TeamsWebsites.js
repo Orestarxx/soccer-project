@@ -12,7 +12,7 @@ const TeamsWebsites = () => {
             <div><a href={teamsSites.Brighton}><img src={emblems.brightonEmblem} alt="football" className={css.emblem}/></a></div>
             <div><a href={teamsSites.Chelsea}><img src={emblems.chelseaEmblem} alt="football" className={css.emblem}/></a></div>
             <div><a href={teamsSites.CrystalPalace}><img src={emblems.crystalPalaceEmblem} alt="football" className={css.emblem}/></a></div>
-            <div><a href={teamsSites.Everton}><img src={emblems.evertonEmblem} alt="football" className={css.emblem}/></a></div>
+            <div><a href={teamsSites.Everton}><img src={emblems.evertonEmblem} alt="football" className={css.emblemE}/></a></div>
             <div><a href={teamsSites.Fulham}><img src={emblems.fulhamEmblem} alt="football" className={css.emblem}/></a></div>
             <div><a href={teamsSites.LeedsUnited}><img src={emblems.leedsUnitedEmblem} alt="football" className={css.emblem}/></a></div>
             <div><a href={teamsSites.LeicesterCity}><img src={emblems.leicesterCityEmblem} alt="football" className={css.emblem}/></a></div>

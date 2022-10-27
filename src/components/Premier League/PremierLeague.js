@@ -12,7 +12,7 @@ const PremierLeague = () => {
     },[])
     return (
         <div>
-            {league?.response?.map((info,index) =><PremierLeagueBuild key={index} info={info} />)}
+            {/*{league?.response?.map((info,index) =><PremierLeagueBuild key={index} info={info} />)}*/}
 
         </div>
     );

@@ -29,26 +29,26 @@ const teamsSites = {
     Wolverhampton:'https://www.wolves.co.uk/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link'
 }
 const emblems = {
-    bournemouthEmblem:'https://resources.premierleague.com/premierleague/badges/25/t91.png',
-    arsenalEmblem:'https://resources.premierleague.com/premierleague/badges/25/t3.png',
-    astonVillaEmblem:'https://resources.premierleague.com/premierleague/badges/25/t7.png',
-    brentfordEmblem:'https://resources.premierleague.com/premierleague/badges/25/t94.png',
-    brightonEmblem:'https://resources.premierleague.com/premierleague/badges/25/t36.png',
-    chelseaEmblem:'https://resources.premierleague.com/premierleague/badges/25/t8.png',
-    crystalPalaceEmblem:'https://resources.premierleague.com/premierleague/badges/25/t31.png',
-    evertonEmblem:'https://resources.premierleague.com/premierleague/badges/25/t11.png',
-    fulhamEmblem:'https://resources.premierleague.com/premierleague/badges/25/t54.png',
-    leedsUnitedEmblem:'https://resources.premierleague.com/premierleague/badges/25/t2.png',
-    leicesterCityEmblem:'https://resources.premierleague.com/premierleague/badges/25/t13.png',
-    liverpoolEmblem:'https://resources.premierleague.com/premierleague/badges/25/t14.png',
-    manchesterCityEmblem:'https://resources.premierleague.com/premierleague/badges/25/t43.png',
-    manchesterUnitedEmblem:'https://resources.premierleague.com/premierleague/badges/25/t1.png',
-    newcastleUnitedEmblem:'https://resources.premierleague.com/premierleague/badges/25/t4.png',
-    nottinghamForestEmblem:'https://resources.premierleague.com/premierleague/badges/25/t17.png',
-    southamptonEmblem:'https://resources.premierleague.com/premierleague/badges/25/t20.png',
-    tottenhamHotspurEmblem:'https://resources.premierleague.com/premierleague/badges/25/t6.png',
-    westHamUnitedEmblem:'https://resources.premierleague.com/premierleague/badges/25/t21.png',
-    wolverhamptonEmblem:'https://resources.premierleague.com/premierleague/badges/25/t39.png'
+    bournemouthEmblem:'https://media.api-sports.io/football/teams/35.png',
+    arsenalEmblem:'https://media.api-sports.io/football/teams/42.png',
+    astonVillaEmblem:'https://media.api-sports.io/football/teams/66.png',
+    brentfordEmblem:'https://media.api-sports.io/football/teams/55.png',
+    brightonEmblem:'https://media.api-sports.io/football/teams/51.png',
+    chelseaEmblem:'https://media.api-sports.io/football/teams/49.png',
+    crystalPalaceEmblem:'https://media.api-sports.io/football/teams/52.png',
+    evertonEmblem:'https://media.api-sports.io/football/teams/45.png',
+    fulhamEmblem:'https://media.api-sports.io/football/teams/36.png',
+    leedsUnitedEmblem:'https://media.api-sports.io/football/teams/63.png',
+    leicesterCityEmblem:'https://media.api-sports.io/football/teams/46.png',
+    liverpoolEmblem:'https://media.api-sports.io/football/teams/40.png',
+    manchesterCityEmblem:'https://media.api-sports.io/football/teams/50.png',
+    manchesterUnitedEmblem:'https://media.api-sports.io/football/teams/33.png',
+    newcastleUnitedEmblem:'https://media.api-sports.io/football/teams/34.png',
+    nottinghamForestEmblem:'https://media.api-sports.io/football/teams/65.png',
+    southamptonEmblem:'https://media.api-sports.io/football/teams/41.png',
+    tottenhamHotspurEmblem:'https://media.api-sports.io/football/teams/47.png',
+    westHamUnitedEmblem:'https://media.api-sports.io/football/teams/48.png',
+    wolverhamptonEmblem:'https://media.api-sports.io/football/teams/39.png'
 }
 
 export {key,_url,leagues,teamsSites,emblems}
