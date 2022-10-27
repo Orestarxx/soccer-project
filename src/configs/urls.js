@@ -5,6 +5,7 @@ let key ="de4c322d3b3f7eb99eeea0597d0f96fb"
 const leagues = {
     PremierLeague:'39'
 }
+const lionEmblem = "https://th.bing.com/th/id/OIP.irwheYHLuL7hAdLmqDdXygAAAA?pid=ImgDet&rs=1"
 
 const teamsSites = {
     Bournemouth:'https://www.afcb.co.uk/?utm_source=premier-league-website&utm_campaign=website&utm_medium=link',
@@ -51,4 +52,4 @@ const emblems = {
     wolverhamptonEmblem:'https://media.api-sports.io/football/teams/39.png'
 }
 
-export {key,_url,leagues,teamsSites,emblems}
+export {key,_url,leagues,teamsSites,emblems,lionEmblem}
