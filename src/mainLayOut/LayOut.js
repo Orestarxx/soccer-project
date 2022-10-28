@@ -1,5 +1,5 @@
 import React from 'react';
-import {PremierLeague} from "../components/Premier League/PremierLeague";
+import {PremierLeague} from "../components/premier League/PremierLeague";
 import {TeamsWebsites} from "../components/teamsWebsites/TeamsWebsites";
 import css from './mainLayOutStyle.module.css'
 import {Controler} from "../components/controler/Controler";
