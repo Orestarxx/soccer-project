@@ -3,6 +3,7 @@ import {emblems, teamsSites} from "../../configs/urls";
 import css from './sitesTeamStyle.module.css'
 
 const TeamsWebsites = () => {
+
     return (
         <div className={css.webSiteHolder}>
                 <div><a href={teamsSites.Bournemouth}><img src={emblems.bournemouthEmblem} alt="football"
