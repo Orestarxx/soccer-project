@@ -5,7 +5,7 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
-    width: 80px;
+    width: 100px;
     height: 15px;
     display: flex;
     align-items: center;
@@ -13,11 +13,13 @@
     margin-right: 5px;
     margin-left: 5px;
     border-radius: 15%;
+
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+
 }
 
 .dropdownContent {

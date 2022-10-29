@@ -1,7 +1,42 @@
+.main{
+    width: 100%;
+
+
+}
+
 .teamSitesHolder{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 
+}
+.contentHolder{
+    min-height: 500px;
+    margin-top: 40px;
+    display: flex;
+
+}
+.left{
+    width: 20%;
+    height: 2120px;
+    border: 1px solid;
+    position: relative;
+    margin-top: 3px;
+    left: 3%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#widgetLeft{
+    overflow: auto;
+    height: 2120px;
+
+}
+.right{
+    width: 78%;
+    height: 2129px;
+    border: 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.sub{
+    height: 200px;
 }
