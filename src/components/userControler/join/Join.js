@@ -1,5 +1,6 @@
 import React from 'react';
 import css from './joinStyle.module.css'
+import {Link} from "react-router-dom";
 
 const Join = () => {
     return (
@@ -9,7 +10,7 @@ const Join = () => {
                 <div className={css.dropdownContent}>
                     <a href="/register">Register</a>
                     <a href="/login">Login</a>
-                    <a href="#">Settings</a>
+                    <Link to={'/managers'}>Managers</Link>
                 </div>
             </div>
         </div>

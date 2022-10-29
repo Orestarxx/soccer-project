@@ -1,4 +1,4 @@
-import {_url, key} from "../configs/urls";
+import {_url, key,key2,key3} from "../configs/urls";
 import {fromDateFormated, toDateFormated} from "../formateDate/date";
 
 
@@ -13,7 +13,7 @@ const getLeague = (id) =>{
 
 }
 
-
+//
 // const options = {
 //     method: 'GET',
 //     headers: {
@@ -25,28 +25,28 @@ const getLeague = (id) =>{
 //  const getLeagues = () => {
 //      return fetch('https://api-football-v1.p.rapidapi.com/v3/leagues', options)
 //          .then(response => response.json())
-//          .then(response => console.log(response))
+//
 //  }
 
 
 
 
-
-
-const options = {
-    method: 'GET',
-    headers: {
-        'X-RapidAPI-Key': 'b0b488ca45msh59a8e60860e3a9ep17ae6cjsnebeb11807746',
-        'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
-    }
-};
-
- const getLeagues = () =>{
-     return fetch('https://api-football-v1.p.rapidapi.com/v3/leagues', options)
-    .then(response => response.json())
-
- }
-
+//
+//
+// const options = {
+//     method: 'GET',
+//     headers: {
+//         'X-RapidAPI-Key': {key3},
+//         'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
+//     }
+// };
+//
+//  const getLeagues = () =>{
+//      return fetch('https://api-football-v1.p.rapidapi.com/v3/leagues', options)
+//     .then(response => response.json())
+//
+//  }
+//
 
 
 
@@ -65,4 +65,4 @@ const options = {
 //     .then(response => console.log(response))
 //     .catch(err => console.error(err));
 
-export {getLeague,getLeagues}
+export {getLeague}

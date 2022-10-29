@@ -5,10 +5,11 @@ import {leagues} from "../../configs/urls";
 
 const PremierLeague = () => {
    const [league,setLeague] = useState([]);
-    console.log(league);
+   //  console.log(league);
     useEffect(() =>{
-       // getLeague(leagues.PremierLeague).then(value => setLeague(value))
-        getLeagues().then(value => console.log(value))
+       getLeague(leagues.PremierLeague).then(value => console.log(value))
+
+
 
 
 
@@ -16,6 +17,7 @@ const PremierLeague = () => {
     return (
         <div>
             {/*{league?.response?.map((info,index) =><PremierLeagueBuild key={index} info={info} />)}*/}
+           gearhhhhhgdhadfhadfh
 
         </div>
     );
