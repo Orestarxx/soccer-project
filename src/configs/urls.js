@@ -1,6 +1,11 @@
 const _url ='https://v3.football.api-sports.io/fixtures'
+const url ='https://v3.football.api-sports.io'
 
 let key ="de4c322d3b3f7eb99eeea0597d0f96fb"
+let key2 ="174824388cmsha929bd254d737dbp1a36bcjsnd67e0aa54aa4"
+let key3 ="10335f4187msh93b8c42039a8a6dp15ededjsnaa89b5f4103f"
+let key4 ="d90f51bbf2msh5283929ac959fa0p16f940jsna2bf286a8ecf"
+let key5 ="b0b488ca45msh59a8e60860e3a9ep17ae6cjsnebeb11807746"
 
 const leagues = {
     PremierLeague:'39'
@@ -52,4 +57,4 @@ const emblems = {
     wolverhamptonEmblem:'https://media.api-sports.io/football/teams/39.png'
 }
 
-export {key,_url,leagues,teamsSites,emblems,lionEmblem}
+export {key,_url,leagues,teamsSites,emblems,lionEmblem,url}

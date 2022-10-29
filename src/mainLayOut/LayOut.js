@@ -4,6 +4,8 @@ import {TeamsWebsites} from "../components/teamsWebsites/TeamsWebsites";
 import css from './mainLayOutStyle.module.css'
 import {Controler} from "../components/controler/Controler";
 import {key} from "../configs/urls";
+import {Route,Routes} from "react-router-dom";
+import App from "../App";
 
 const LayOut = () => {
     return (
@@ -29,7 +31,9 @@ const LayOut = () => {
                          data-modal-show-logos="true">
                     </div>
                 </div>
-                <div className={css.right}></div>
+                <div className={css.right}>
+
+                </div>
             </div>
             <div className={css.sub}></div>
 

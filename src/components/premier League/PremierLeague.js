@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {getLeague} from "../../services/premier.league.service";
+import {getLeague,getLeagues} from "../../services/premier.league.service";
 import {PremierLeagueBuild} from "./PremierLeagueBuild";
 import {leagues} from "../../configs/urls";
 
@@ -7,7 +7,10 @@ const PremierLeague = () => {
    const [league,setLeague] = useState([]);
     console.log(league);
     useEffect(() =>{
-       getLeague(leagues.PremierLeague).then(value => setLeague(value))
+       // getLeague(leagues.PremierLeague).then(value => setLeague(value))
+        getLeagues().then(value => console.log(value))
+
+
 
     },[])
     return (

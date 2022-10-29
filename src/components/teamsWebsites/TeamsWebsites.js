@@ -6,6 +6,7 @@ const TeamsWebsites = () => {
 
     return (
         <div className={css.webSiteHolder}>
+            <p>Club sites</p>
                 <div><a href={teamsSites.Bournemouth}><img src={emblems.bournemouthEmblem} alt="football"
                                                            className={css.emblem}/></a></div>
                 <div><a href={teamsSites.Arsenal}><img src={emblems.arsenalEmblem} alt="football"
