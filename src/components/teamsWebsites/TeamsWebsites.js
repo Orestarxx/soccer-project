@@ -1,5 +1,5 @@
 import React from 'react';
-import {emblems, teamsSites} from "../../configs/urls";
+import {emblems, teamsSites} from "../../configs/teamsSites/teamSites";
 import css from './sitesTeamStyle.module.css'
 
 const TeamsWebsites = () => {

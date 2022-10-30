@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './controlerStyle.module.css'
-import {lionEmblem} from "../../configs/urls";
+import {lionEmblem} from "../../configs/urls/urls";
 import {Join} from "../userControler/join/Join";
 import {Link} from "react-router-dom";
 

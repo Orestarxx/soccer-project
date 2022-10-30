@@ -1,4 +1,4 @@
-import {_url, key,key2,key3} from "../configs/urls";
+import {_url, key,key2,key3} from "../configs/urls/urls";
 import {fromDateFormated, toDateFormated} from "../formateDate/date";
 
 
