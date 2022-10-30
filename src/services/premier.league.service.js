@@ -65,4 +65,17 @@ const getLeague = (id) =>{
 //     .then(response => console.log(response))
 //     .catch(err => console.error(err));
 
-export {getLeague}
+
+const options = {
+    method: 'GET',
+    headers: {
+        'X-RapidAPI-Key': '174824388cmsha929bd254d737dbp1a36bcjsnd67e0aa54aa4',
+        'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
+    }
+};
+
+ const managers = (id) => fetch(`https://api-football-v1.p.rapidapi.com/v3/coachs?team=${id}`, options)
+    .then(response => response.json())
+
+
+export {getLeague,managers}
