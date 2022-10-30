@@ -1,5 +1,5 @@
 import React from 'react';
-import {teamsManager} from "../../data/managers/managers";
+import {teamsManager} from "../../../data/managers/managers";
 import {ManagerBuild} from "./ManagerBuild";
 import css from './managerHolder.module.css'
 

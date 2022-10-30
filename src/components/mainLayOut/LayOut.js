@@ -1,11 +1,12 @@
 import React from 'react';
-import {PremierLeague} from "../components/premier League/PremierLeague";
-import {TeamsWebsites} from "../components/teamsWebsites/TeamsWebsites";
+import {PremierLeague} from "../premier League/PremierLeague";
+import {TeamsWebsites} from "../teamsWebsites/TeamsWebsites";
 import css from './mainLayOutStyle.module.css'
-import {Controler} from "../components/controler/Controler";
-import {key,key2} from "../configs/urls/urls";
+import {Controler} from "../controler/Controler";
+import {key,key2} from "../../configs/urls/urls";
 import {Route,Routes} from "react-router-dom";
-import {Managers} from "../components/manegers/Managers";
+import {Managers} from "../teamManagers/managers/Managers";
+import {ManagersDetails} from "../teamManagers/managersDetails/ManagersDetails";
 
 const LayOut = () => {
     return (
@@ -45,6 +46,7 @@ const LayOut = () => {
                      <Routes>
                          <Route path={'/'} element={<PremierLeague/>}/>
                          <Route path={'managers'} element={<Managers/>}/>
+                         <Route path={'managers/:id'} element={<ManagersDetails/>}/>
                      </Routes>
                 </div>
 
