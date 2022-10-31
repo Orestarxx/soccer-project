@@ -9,7 +9,7 @@ const PremierLeague = () => {
    //  console.log(league);
     useEffect(() =>{
        // getLeague(leagues.PremierLeague).then(value => console.log(value))
-        managers(teamsId.TottenhamID).then(value => console.log(value))
+       //  managers(teamsId.TottenhamID).then(value => console.log(value))
 
     },[])
     return (

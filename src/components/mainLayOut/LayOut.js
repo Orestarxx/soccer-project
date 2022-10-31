@@ -32,7 +32,7 @@ const LayOut = () => {
                     {/*</div>*/}
                     <div id="wg-api-football-standings"
                          data-host="v3.football.api-sports.io"
-                         data-key=""
+                         data-key={key}
                          data-league="39"
                          data-team=""
                          data-season="2022"
